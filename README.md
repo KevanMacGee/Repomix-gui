@@ -14,19 +14,25 @@ A desktop application that provides a user-friendly interface for [Repomix](http
 ## 🛠️ For Developers
 
 ### Run from Source
-python repomix_gui.py
+```
+`python repomix_gui.py`
+```
 
-text
+
 
 ### Build Your Own Executable
+```
 pip install pyinstaller
 pyinstaller --onefile --windowed repomix_gui.py
+```
 
-text
+
 
 ## Requirements
+
 - Node.js and npm (for Repomix)
 - Python 3.6+ (if running from source)
 
 ## License
 This project is licensed under CC BY-NC-SA 4.0
+
