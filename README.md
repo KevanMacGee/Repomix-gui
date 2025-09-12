@@ -2,7 +2,7 @@
 
 A GUI wrapper that provides a user-friendly interface for [Repomix](https://github.com/yamadashy/repomix). This is only a GUI wrapper and you must have Repomix installed to use it.
 
-This was a 45 minute AI assisted, quick and dirty project to make AI assisted coding easier. When using AI to code something, I will often feed a Repomix file of my codebase for analysis, feed back or to have the AI model make some changes. This makes it a little easier to accomplish.
+This was a 45 minute AI assisted, quick and dirty project to make AI assisted coding easier. When using AI to code something, I will often feed a Repomix file of my codebase for analysis, feedback or to have the AI model make some changes. This makes it a little easier to accomplish.
 
 ![App Screenshot](screenshots/app_preview.png)
 
