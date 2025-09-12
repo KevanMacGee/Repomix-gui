@@ -149,7 +149,6 @@ class RepomixGUI:
                 text=True,
                 encoding='utf-8',
                 errors='replace',
-                shell=True
             )
             
             if result.returncode == 0:
