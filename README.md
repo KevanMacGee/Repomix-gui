@@ -21,13 +21,13 @@ This app is a standalone exe and does not need to be installed.
 
 ## 🚧 Issues
 
-These may or may not be fixed, depending on how often they come up. The fix might even be to not use this GUI and just use Repomix in the terminal as originally intended. If you enounter frequent errors, please submit an issue on it.
+These may or may not be fixed, depending on how often they come up. The fix might even be to not use this GUI and just use Repomix in the terminal as originally intended. If you encounter frequent errors, please submit an issue on it.
 
 -   This app uses Tkinker in the GUI which may not be installed or configured in all Python installations.
 -   Error reporting is broken and incomplete.
 -   If this program runs for a long time, the GUI may freeze. This has not happened in initial testing so no fix has has
     been explored yet.
--   env and log files are hardcoded to be ignored. This really shouldn't be much of an issue but the fact it is not configureable should be noted.
+-   env and log files are hardcoded to be ignored. This really shouldn't be much of an issue but the fact it is not configurable should be noted.
 
 ## 🛠️ For Developers
 

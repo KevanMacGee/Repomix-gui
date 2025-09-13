@@ -136,8 +136,12 @@ class RepomixGUI:
             self.status_label.config(text="⚡ Running Repomix...", fg="#FFB74D")
             self.root.update()
             
+            # On Windows, npx is actually npx.cmd
+            import platform
+            npx_command = "npx.cmd" if platform.system() == "Windows" else "npx"
+            
             cmd = [
-                "npx", "repomix", 
+                npx_command, "repomix", 
                 "--output", output_filename,
                 "--ignore", ".env,*.log"
             ]
