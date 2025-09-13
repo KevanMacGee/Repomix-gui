@@ -13,7 +13,7 @@ class RepomixGUI:
         self.root.resizable(True, True)
         
         # Dark theme background colors
-        window_bg = "#1e1e1e"  # Dark background for entire window
+        window_bg = "#1e1e1e"  
         self.root.configure(bg=window_bg)
         
         # Configure style
@@ -77,7 +77,6 @@ class RepomixGUI:
         # Add subtle dark line between sections
         separator = ttk.Separator(main_frame, orient='horizontal')
         separator.pack(fill='x', pady=5)
-        # Set separator color to #2d2d2d
         self.style.configure("TSeparator", background="#2d2d2d")
         
         # Output preview section (no title)
