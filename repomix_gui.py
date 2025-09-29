@@ -110,13 +110,13 @@ class RepomixGUI:
         if folder_path:
             self.selected_folder = folder_path
             folder_name = os.path.basename(folder_path)
-            self.folder_label.config(text=f"📁 {folder_name}\n📍 {folder_path}", 
+            self.folder_label.config(text=folder_path, 
                                    font=("Consolas", 10), fg="#ffffff")
             
             # Update output preview
             timestamp = datetime.now().strftime('%m%d%y_%H%M')
             output_filename = f"{folder_name}-summary_{timestamp}.txt"
-            self.output_label.config(text=f"📄 {output_filename}", 
+            self.output_label.config(text=output_filename, 
                                    font=("Consolas", 10), fg="#ffffff")
             
             self.status_label.config(text="✅ Folder selected - ready to generate!", 
